@@ -2,7 +2,7 @@ process calculateWindowsDepth {
     tag "Extracting windows depth statistics from bam files"
     cpus 1
     memory '4GB'
-    time '12h'
+    time '6h'
 
     input:
     path depth_file

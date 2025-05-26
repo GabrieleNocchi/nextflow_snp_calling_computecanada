@@ -2,7 +2,7 @@ process trimSequences {
     tag "Fastp trimming fastq files"
     cpus 4
     memory '4GB'
-    time '12h'
+    time '6h'
     errorStrategy 'ignore'
       
     input:

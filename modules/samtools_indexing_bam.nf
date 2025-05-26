@@ -2,7 +2,7 @@ process samtoolsRealignedIndex {
     tag "Indexing bam files for SNP calling"
     cpus 1
     memory '4GB'
-    time '12h'
+    time '6h'
     errorStrategy 'ignore'
 
     input:

@@ -2,7 +2,7 @@ process calculateDepth {
     tag "Extracting depth statistics from bam files"
     cpus 1
     memory '16GB'
-    time '12h'
+    time '6h'
     errorStrategy 'ignore'
 
     input:
